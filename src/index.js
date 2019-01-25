@@ -11,6 +11,5 @@ export default function wrapLines(container, opentag, closingtag) {
         } 
         tmp += spans[i].textContent + ' ';   
     }    
-    tmp += closingtag;
-    container.innerHTML = tmp;
+    container.innerHTML += closingtag;
 }
